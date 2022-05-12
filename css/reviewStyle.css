@@ -11,16 +11,6 @@
     padding: 5%;
 }
 
-.container {
-    margin:auto;
- 
-}
-
-.container img {
-    width:100%;
-    height:auto;
-    padding:5%;
-}
 
 @media screen and (max-width: 768px) {
     
