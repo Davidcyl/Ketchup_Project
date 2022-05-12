@@ -28,6 +28,12 @@ h5 {
   padding: 15px;
 }
 
+.btn:hover {
+  background: #345351;
+  color: #e3caab;
+}
+
+/* Section 1 */
 .navbar-nav {
   margin: auto;
 }
@@ -42,24 +48,25 @@ h5 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("../images/henry-co-tqu0IOMaiU8-unsplash.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../images/brooke-lark-qG_-WZNVoUo-unsplash.jpg");
   width: 100%;
   height: 600px;
   margin: auto;
-  background-size: 100%;
+  background-size: cover;
+  background-position: 100% 65%;
 }
 
-/*
-.section1-intro {
-  background-color: rgba(255, 255, 255, 0.502);
-  padding: 50px 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
 }
-*/
 
+/* Section 2 */
 .section2 {
   display: flex;
   flex-direction: column;
@@ -71,28 +78,22 @@ h5 {
 }
 
 .section1 form,
-.section2 form {
+.section2 form,
+.section3 form {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px;
+  padding: 20px;
 }
 
-.card-body > a {
-  border-radius: 20px;
-  padding: none;
-  font-size: 12px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 0px 8px;
+.section2 button {
+  margin-left: 10px;
 }
 
-.btn:hover {
-  background: #345351;
-  color: #e3caab;
-}
-
+/* Section 3 */
 .section3 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -100,6 +101,15 @@ h5 {
   margin: auto;
 }
 
+.card-body > a {
+  border-radius: 2pxx;
+  padding: none;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0px 8px;
+}
+
+/* Section 4 */
 .section4 {
   background-color: #345351;
   color: #e3caab;
@@ -116,7 +126,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -128,9 +138,45 @@ h5 {
   font-weight: bold;
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-wrap: break-word;
 }
 
 .photo img {
-  height: 500px;
+  height: 400px;
   margin: auto;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIconBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10rem;
+  height: 100%;
+}
+
+.socialIconBox > img {
+  height: 100%;
+  width: auto;
+}
+
+.copyrightBox {
+  font-size: 0.75rem;
+  padding-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 720px) {
+  .section4,
+  .section3 form {
+    display: none;
+  }
 }

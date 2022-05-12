@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <!-- Create a Nav Bar -->
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
@@ -48,24 +48,26 @@
             </li>
             <!-- -->
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about.html">About Us</a>
             </li>
             <!-- -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Review</a>
+              <a class="nav-link" href="review.html">Review</a>
             </li>
             <!-- -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Post</a>
+              <a class="nav-link" href="post_form.html">Post</a>
             </li>
             <!-- -->
           </ul>
 
           <!-- Separate -->
           <form class="d-flex">
-            <button class="btn btn-outline-secondary" type="submit">
-              Login
-            </button>
+            <a href="login.html"
+              ><button type="button" class="btn btn-outline-secondary">
+                Login
+              </button></a
+            >
           </form>
         </div>
       </div>
@@ -81,9 +83,11 @@
           #favouritefood
         </p>
         <form>
-          <button class="btn btn-outline-secondary" type="submit">
-            Let's Begin
-          </button>
+          <a href="post_form.html"
+            ><button type="button" class="btn btn-outline-secondary">
+              Let's Begin
+            </button></a
+          >
         </form>
       </div>
     </section>
@@ -110,12 +114,12 @@
       </form>
     </section>
 
-    <!-- Section 3 -->
+    <!-- Section 3 Cards Display -->
     <section class="section3">
       <div class="container bottom-margin">
-        <div class="row">
+        <div class="row g-4">
           <div class="col-lg-3 col-md-6">
-            <div class="card" style="width: 16rem">
+            <div class="card" style="width: 100%">
               <img
                 src="images/shawnanggg-H82HDdkcd4c-unsplash.jpg"
                 class="card-img-top"
@@ -128,7 +132,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="card" style="width: 16rem">
+            <div class="card" style="width: 100%">
               <img
                 src="images/toa-heftiba-loS68zG8P38-unsplash.jpg"
                 class="card-img-top"
@@ -143,7 +147,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="card" style="width: 16rem">
+            <div class="card" style="width: 100%">
               <img
                 src="images/loes-klinker-gPzixog6XLg-unsplash.jpg"
                 class="card-img-top"
@@ -156,7 +160,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="card" style="width: 16rem">
+            <div class="card" style="width: 100%">
               <img
                 src="images/jeena-jeong-hGXi5b6QKoY-unsplash.jpg"
                 class="card-img-top"
@@ -169,17 +173,43 @@
           </div>
         </div>
       </div>
+
+      <form>
+        <a href="#"
+          ><button type="button" class="btn btn-outline-secondary">
+            View More
+          </button></a
+        >
+      </form>
     </section>
 
     <!-- Section 4 -->
     <section class="section4">
       <div class="hashtag">
-        <p>share your <u>#favouritefood</u> 🧆🍝🥘🥗🌮🍱🦪🍤🍡</p>
+        <p>share your <u>#favouritefood</u> 🍝🥘🥗🌮🍱🦪🍤🍡</p>
       </div>
       <div class="photo">
         <img src="images/spencer-davis-Ao-JI_CCft0-unsplash.jpg" />
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="socialIconBox">
+        <div class="socialIcon">
+          <a href="#"><img src="images/twitter.svg" alt="twitter logo" /></a>
+        </div>
+        <div class="socialIcon">
+          <a href="#"
+            ><img src="images/instagram.svg" alt="instagram logo"
+          /></a>
+        </div>
+        <div class="socialIcon">
+          <a href="#"><img src="images/facebook.svg" alt="fb logo" /></a>
+        </div>
+      </div>
+      <div class="copyrightBox">© Copyright 2022</div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
