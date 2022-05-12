@@ -12,11 +12,67 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/aboutStyle.css" />
 
     <title>About Us</title>
   </head>
   <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/KetchupLogo.png" width="60" height="60"
+        /></a>
+
+        <!-- Hamburger menu button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- Nav Bar Header Link -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- -->
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <!-- -->
+            <li class="nav-item">
+              <a class="nav-link" href="review.html">Review</a>
+            </li>
+            <!-- -->
+            <li class="nav-item">
+              <a class="nav-link" href="post_form.html">Post</a>
+            </li>
+            <!-- -->
+          </ul>
+
+          <!-- Separate -->
+          <form class="d-flex">
+            <a href="login.html"
+              ><button type="button" class="btn btn-outline-secondary">
+                Login
+              </button></a
+            >
+          </form>
+        </div>
+      </div>
+    </nav>
+
     <section class="overview">
       <div class="overview-message">
         <h1>'Laughter is brightest in the place where food is good.'</h1>
@@ -37,8 +93,8 @@
         <h2>Meet the Team</h2>
       </div>
       <div class="team-members container">
-        <div class="row">
-          <div class="member col-lg-3 col-md-6" id="yeele">
+        <div class="row gy-4">
+          <div class="member col-lg-3 col-md-6">
             <img src="about_files/profile_ph.jpg" alt="portrait image" />
             <h3>Yee Le</h3>
             <div class="writeup">
@@ -47,43 +103,93 @@
               and experience as a sales ops manager, I aspire to use my skills
               to bridge development work and the vision that clients have.
             </div>
+            <div class="icons">
+              <a href="https://github.com/Davidcyl" target="_blank"
+                ><img src="about_files/github.svg"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/david-chong-yee-le/"
+                target="_blank"
+                ><img src="about_files/linkedin.svg"
+              /></a>
+            </div>
           </div>
-          <div class="member col-lg-3 col-md-6" id="shangxiang">
+          <div class="member col-lg-3 col-md-6">
             <img src="about_files/profile_ph.jpg" alt="portrait image" />
             <h3>Shang Xiang</h3>
             <div class="writeup">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus. Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Proin pharetra nonummy pede.
+              I'm a fast learner and have a strong passion for coding. During my
+              downtime, I like to unwind by playing computer games. Always up
+              for solving challenges that come along my way.
+            </div>
+            <div class="icons">
+              <a href="https://github.com/SXTesting" target="_blank"
+                ><img src="about_files/github.svg"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/shangxiang-soh/"
+                target="_blank"
+                ><img src="about_files/linkedin.svg"
+              /></a>
             </div>
           </div>
-          <div class="member col-lg-3 col-md-6" id="chingyi">
+          <div class="member col-lg-3 col-md-6">
             <img src="about_files/profile_ph.jpg" alt="portrait image" />
             <h3>Ching Yi</h3>
             <div class="writeup">
               Setting sail towards a fulfilling career in the IT industry, I am
               currently learning the ropes of being a Junior Full Stack
               Developer and hoping to widen my horizons! Still dreaming of
-              travelling to countries that ends with -land. I love snarky cats
-              and have a love-hate relationship with pilates.
+              travelling to countries that ends with -land.
+            </div>
+            <div class="icons">
+              <a href="https://github.com/chingyifong" target="_blank"
+                ><img src="about_files/github.svg"
+              /></a>
+              <a href="https://www.linkedin.com/in/chingyifong/" target="_blank"
+                ><img src="about_files/linkedin.svg"
+              /></a>
             </div>
           </div>
-          <div class="member col-lg-3 col-md-6" id="miaofeng">
+          <div class="member col-lg-3 col-md-6">
             <img src="about_files/profile_ph.jpg" alt="portrait image" />
             <h3>Miao Feng</h3>
             <div class="writeup">
-              Always on the lookout for a good cup of latte. Hoping to get more
-              recommendations on this platform! During office hours, I am
-              currently taking up the Junior Full Stack Developer course at
+              Always on the lookout for a good cup of latte to fuel the day. I
+              am currently taking up the Junior Full Stack Developer course at
               Generation Singapore.
+            </div>
+            <div class="icons">
+              <a href="https://github.com/miao-feng" target="_blank"
+                ><img src="about_files/github.svg"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/miaofeng-tan/"
+                target="_blank"
+                ><img src="about_files/linkedin.svg"
+              /></a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer>
+      <div class="socialIconBox">
+        <div class="socialIcon">
+          <a href="#"><img src="images/twitter.svg" alt="twitter logo" /></a>
+        </div>
+        <div class="socialIcon">
+          <a href="#"
+            ><img src="images/instagram.svg" alt="instagram logo"
+          /></a>
+        </div>
+        <div class="socialIcon">
+          <a href="#"><img src="images/facebook.svg" alt="fb logo" /></a>
+        </div>
+      </div>
+      <div class="copyrightBox">© Copyright 2022</div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
