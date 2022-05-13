@@ -24,7 +24,7 @@ displayReview() {
     this.items.forEach ((items, index) => {
         showreviewItem +=
         `
-        <div class="col-lg-3 col-md-6 g-4">
+        <div class="col-lg-3 col-md-6 reviewCard">
             <div class="card" style="width: 20rem">
                 <div>Username: ${items.userID} </div>
               <img src=${items.imageURL} class="card-img-top" alt="..."/>
